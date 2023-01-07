@@ -1,5 +1,11 @@
 import Header from "../components/Header";
-import Head from "./head";
+import { Information } from "../components/Information";
+
 export default function Home() {
-  return <Header />;
+  return (
+    <div>
+      <Header />
+      <Information />
+    </div>
+  );
 }
